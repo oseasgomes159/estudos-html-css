@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens em vários tamanhos</title>
+</head>
+<body>
+    <h1>Imagens de tamanhos e formas diferentes</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="Imagem Grande">
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+    <p>Abaixo vamos ver como produzir audios em html</p>
+    <audio preload="metadata" controls>
+        <source src="midia/podcast.mp3.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não reproduz arquivo mp3</p>
+        <a href="midia/podcast.mp3.mp3">Clique aqui para baixar</a>
+    </audio>
+    <h1>Aqui iremos mostrar um vídeo saindo do próprio repositório</h1>
+    <video src="midia/video.mp4" width="500" autoplay controls></video>
+    <p>Video do youtube</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0tHH0BNH0Sc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

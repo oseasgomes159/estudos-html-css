@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    font: normal 16px Arial, Verdana, Serif;
+    text-align: left;
+}
+h1{
+    background-color: #3A6B14;
+    color: white;
+}
+h2{
+    text-align: right;
+}
+p {
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.aprenda {
+text-align: center;
+}
+
+.subaprenda {
+    background-color: white;
+    color: #4C6B34;
+}
+
+.estiloweb {
+    color: #63B823;
+}
+
+.display {
+    text-align: center;
+    background-color: #3A6B14;
+    color: white;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+div:hover {
+    background-color: yellowgreen;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:active {
+    color: black;
+}
